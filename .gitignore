@@ -1,0 +1,28 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+.aws/
+
+# Local agent workspace metadata
+.agents/
+.codex/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Dependencies, caches, and generated output
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+coverage/
+*.log

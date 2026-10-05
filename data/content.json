@@ -1,0 +1,132 @@
+{
+  "lab": {
+    "name": "Discovery Research Lab",
+    "tagline": "Exploring ideas. Advancing knowledge.",
+    "institution": "Department of Research \u00b7 Example University",
+    "intro": "We bring together researchers from different disciplines to investigate complex questions and develop practical approaches to scientific discovery.",
+    "email": "",
+    "address": "Research Building, Example University\nCity, Country",
+    "joining": "We welcome enquiries from prospective students and collaborators. Details about opportunities will be added here.",
+    "notice": "Preview website \u2014 all names, research, publications, and announcements are fictional placeholders."
+  },
+  "research": [
+    {
+      "title": "Understanding complex systems",
+      "summary": "Investigating how individual components interact to shape the behaviour of larger systems.",
+      "projects": [
+        {
+          "title": "Example project 1",
+          "description": "A short project description explaining the question, approach, and potential impact.",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "title": "Methods and measurement",
+      "summary": "Developing tools and methods to collect reliable evidence and test new ideas.",
+      "projects": [
+        {
+          "title": "Example project 2",
+          "description": "A short project description explaining the question, approach, and potential impact.",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "title": "Applications and collaboration",
+      "summary": "Working across disciplines to connect foundational research with practical challenges.",
+      "projects": [
+        {
+          "title": "Example project 3",
+          "description": "A short project description explaining the question, approach, and potential impact.",
+          "url": ""
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "Dr. Alex Morgan",
+      "role": "Principal Investigator",
+      "group": "Faculty",
+      "bio": "Leads the lab\u2019s research programme and mentors students across its research themes.",
+      "image": "",
+      "url": ""
+    },
+    {
+      "name": "Taylor Rao",
+      "role": "Doctoral Researcher",
+      "group": "Current members",
+      "bio": "Studies complex systems and interdisciplinary research methods.",
+      "image": "",
+      "url": ""
+    },
+    {
+      "name": "Jordan Lee",
+      "role": "Research Associate",
+      "group": "Current members",
+      "bio": "Develops tools for reproducible experiments and analysis.",
+      "image": "",
+      "url": ""
+    },
+    {
+      "name": "Sam Patel",
+      "role": "Master\u2019s Student",
+      "group": "Current members",
+      "bio": "Explores applications of the lab\u2019s methods through collaborative projects.",
+      "image": "",
+      "url": ""
+    },
+    {
+      "name": "Casey Chen",
+      "role": "Former Doctoral Researcher",
+      "group": "Alumni",
+      "bio": "Completed doctoral research on methods and measurement.",
+      "image": "",
+      "url": ""
+    }
+  ],
+  "publications": [
+    {
+      "title": "A framework for studying complex research questions",
+      "authors": "A. Morgan, T. Rao, and J. Lee",
+      "venue": "Example Journal of Research",
+      "year": 2026,
+      "paperUrl": "",
+      "codeUrl": ""
+    },
+    {
+      "title": "Reproducible methods for interdisciplinary discovery",
+      "authors": "J. Lee and A. Morgan",
+      "venue": "Example Research Conference",
+      "year": 2026,
+      "paperUrl": "",
+      "codeUrl": ""
+    },
+    {
+      "title": "Connecting foundational methods with practical applications",
+      "authors": "C. Chen and A. Morgan",
+      "venue": "Example Journal of Science",
+      "year": 2025,
+      "paperUrl": "",
+      "codeUrl": ""
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-09-15",
+      "title": "New research project begins",
+      "text": "The lab is starting a collaborative project investigating a new research question."
+    },
+    {
+      "date": "2026-08-10",
+      "title": "Welcome to our new members",
+      "text": "We welcome new students joining the lab this semester."
+    },
+    {
+      "date": "2026-06-20",
+      "title": "Paper accepted at an example conference",
+      "text": "Congratulations to the team on the acceptance of their latest work."
+    }
+  ]
+}
