@@ -1,23 +1,23 @@
 {
   "lab": {
     "name": "MMBS Laboratory",
-    "fullName": "Microfluidics, Materials, Bio‑interfaces & Sensing Laboratory",
+    "fullName": "Microfluidics, Materials, Bio-interfaces & Sensing Laboratory",
     "tagline": "Microfluidics · Materials · Bio-interfaces · Sensing",
     "institution": "Department of Chemical Engineering · IIT Kharagpur",
-    "intro": "We combine chemical engineering, biology and computation to develop microfluidic chips, engineered tissues, biomaterials and biosensors for healthcare research.",
+    "intro": "We study how cells and tissues behave in engineered environments. Our work brings together microfluidics, biomaterials and biosensing to build laboratory models for studying disease and evaluating treatments.",
     "about": [
-      "Based in Chemical Engineering at IIT Kharagpur, the lab connects microfluidics, biomaterials, biological interfaces and sensing with computational modelling, AI and advanced manufacturing.",
-      "Our platforms include lab and organ chips, 3D-bioprinted tissue and disease models, functional biomaterials, biosensors and multiscale simulations. Applications include disease modelling, drug discovery, immunotherapy, tissue engineering, regeneration and precision medicine. Microfabrication and translational biology help turn engineering models into predictive tools for healthcare.",
-      "We welcome research partnerships with universities, hospitals, institutes and industry."
+      "The MMBS Laboratory is based in the Department of Chemical Engineering at IIT Kharagpur and is led by Dr. Surjendu Maity. We develop lab-on-a-chip devices, organ-on-a-chip models, bioprinted tissues and sensing systems for biomedical research.",
+      "A central question in our work is how the physical environment influences biological behaviour. We combine experiments with computational models to study fluid flow and the movement of nutrients and drugs through small devices and engineered tissues.",
+      "Our research spans cancer, immune responses, tissue engineering and regenerative medicine. We welcome collaborations with researchers in universities, hospitals, research institutes and industry."
     ],
     "email": "surjendu@che.iitkgp.ac.in",
     "address": "Department of Chemical Engineering\nIndian Institute of Technology Kharagpur\nKharagpur, West Bengal 721302, India",
-    "joining": "B.Tech and M.Tech students, PhD applicants and postdoctoral researchers interested in interdisciplinary biomedical engineering are welcome to enquire. Research spans microfluidics, organ chips, bioprinting, biomaterials, biosensors and computational modelling.",
+    "joining": "We welcome enquiries from B.Tech and M.Tech students, prospective PhD scholars and postdoctoral researchers. If your interests overlap with our research, email Dr. Maity with your CV and a short statement describing the work you would like to pursue.",
     "notice": "",
     "image": "assets/images/mmbs-logo.png",
     "imageAlt": "MMBS emblem representing microfluidics, materials, bio-interfaces and sensing around a chip",
-    "quote": "Redefining the future of biomedical engineering—one chip, one cell, one innovation at a time.",
-    "quoteAttribution": "Dr. Surjendu Maity, Principal Investigator",
+    "quote": "",
+    "quoteAttribution": "",
     "links": [
       {
         "label": "Google Scholar",
@@ -31,99 +31,103 @@
     "pillars": [
       {
         "title": "Microfluidics",
-        "summary": "Fluid control in lab and organ chips."
+        "summary": "Controlling fluids, cells and reagents within small devices."
       },
       {
         "title": "Materials",
-        "summary": "Functional biomaterials and bioprinted structures."
+        "summary": "Biomaterials and printed structures that support cells and tissues."
       },
       {
         "title": "Bio-interfaces",
-        "summary": "Cell and tissue interfaces for modelling disease."
+        "summary": "Understanding how cells respond to their surroundings."
       },
       {
         "title": "Sensing",
-        "summary": "Biosensors and bioelectronics for live measurements."
+        "summary": "Measuring biological signals within experimental systems."
       }
     ]
   },
   "research": [
     {
       "title": "Organ-on-a-Chip & Microphysiological Systems",
-      "summary": "Tissue physiology on microengineered chips for disease studies and drug evaluation.",
+      "summary": "We build small experimental models of tissue and organ function to study disease and treatment responses under controlled conditions.",
       "pillar": "Microfluidics",
       "projects": [
         {
           "title": "Lymph node-on-a-chip for cancer vaccines",
-          "description": "Models the lymph-node paracortex and declining immune function with age to evaluate cancer-vaccine responses in older patients, who are less represented in preclinical studies.",
+          "description": "A model of the lymph-node paracortex for studying how age affects immune responses to cancer vaccines. The published study used cells from young and older mice to compare antigen presentation, T-cell activation and responses against cancer cells.",
           "pillar": "Bio-interfaces",
-          "url": "https://mmbslab.netlify.app/#research"
+          "url": "https://doi.org/10.1039/D5LC00533G",
+          "linkLabel": "Read the study"
         },
         {
           "title": "Glioblastoma-on-a-chip",
-          "description": "Recreates the cellular and mechanical conditions of brain tissue in a 3D glioblastoma model to investigate treatment resistance and candidate therapies.",
+          "description": "A 3D model that reproduces key mechanical properties of brain tissue to study glioblastoma drug resistance. Published work examines how pericytes, cells associated with blood vessels, influence tumour responses to temozolomide.",
           "pillar": "Microfluidics",
-          "url": "https://mmbslab.netlify.app/#research"
+          "url": "https://doi.org/10.1016/j.actbio.2025.05.038",
+          "linkLabel": "Read the study"
         },
         {
-          "title": "Vascularized organ & tumor chips",
-          "description": "Brain and tumour organoids with vascular networks for studies of aging, neuroinflammation and personalised immuno-oncology treatments, in collaboration with Duke University School of Medicine.",
+          "title": "Vascularised organ and tumour chips",
+          "description": "This research direction brings blood-vessel networks into brain and tumour organoid models. Work with collaborators at Duke University School of Medicine explores ageing, neuroinflammation and drug testing in immuno-oncology.",
           "pillar": "Materials",
-          "url": "https://mmbslab.netlify.app/#research"
+          "url": "https://mmbslab.netlify.app/#research",
+          "sourceTitle": "Vascularized organ & tumor chips",
+          "linkLabel": "Lab research overview"
         }
       ]
     },
     {
       "title": "Lab-on-a-Chip & Microfluidic Technologies",
-      "summary": "Microscale devices that control fluids, cells and reagents.",
+      "summary": "We develop miniature devices for biological analysis and screening, bringing fluid handling and sensing into the same system.",
       "pillar": "Microfluidics",
       "projects": []
     },
     {
       "title": "3D Bioprinting & Biofabrication",
-      "summary": "Bioprinted tissues with engineered geometry and biological function.",
+      "summary": "We use printing and biofabrication methods to make tissue constructs, scaffolds and customised microfluidic devices.",
       "pillar": "Materials",
       "projects": []
     },
     {
       "title": "Biomaterials & Bio-interfaces",
-      "summary": "Biomaterials designed to interact with cells and tissue.",
+      "summary": "We design materials for contact with living cells and tissues, with attention to how the surrounding structure affects biological behaviour.",
       "pillar": "Materials",
       "projects": []
     },
     {
       "title": "Biosensors & Bioelectronics",
-      "summary": "Sensitive biosensors and electronic interfaces for monitoring biological processes.",
+      "summary": "Our sensing work includes electrochemical and impedance-based methods for tracking biological signals, with an emphasis on integration into microfluidic systems.",
       "pillar": "Sensing",
       "projects": []
     },
     {
       "title": "Computational Modelling & Multiphysics Simulations",
-      "summary": "Multiscale and multiphysics models for device development and biological analysis.",
+      "summary": "We use simulations alongside experiments to understand microscale flow and transport, and to guide the design of devices and tissue models.",
       "pillar": "Cross-cutting",
       "projects": []
     },
     {
       "title": "Cancer Engineering & Precision Medicine",
-      "summary": "Tumour chips for studying cancer mechanisms, screening treatments and tailoring therapy.",
+      "summary": "We develop tumour models to investigate the conditions that influence cancer growth and treatment response, with the aim of informing personalised approaches.",
       "pillar": "Bio-interfaces",
       "projects": []
     },
     {
       "title": "Drug Discovery & Immunotherapy",
-      "summary": "Experimental platforms for testing drugs, delivery methods and immune responses.",
+      "summary": "We study how experimental models can help evaluate drug delivery, treatment effects and immune responses before clinical testing.",
       "pillar": "Bio-interfaces",
       "projects": []
     },
     {
       "title": "Tissue Engineering & Regenerative Medicine",
-      "summary": "Functional tissue replacements and approaches to tissue regeneration.",
+      "summary": "We explore biomaterials and engineered tissue constructs for studying tissue function and developing approaches to repair and regeneration.",
       "pillar": "Materials",
       "projects": []
     },
     {
       "title": "AI/ML-Enabled Biomedical Engineering",
-      "summary": "Machine learning for biomedical device design, image analysis and diagnostics.",
+      "summary": "This research area explores data-driven methods for biomedical device design, image analysis and diagnostics.",
       "pillar": "Sensing",
       "projects": []
     }
@@ -131,9 +135,9 @@
   "people": [
     {
       "name": "Dr. Surjendu Maity",
-      "role": "Assistant Professor & Principal Investigator, Department of Chemical Engineering, IIT Kharagpur",
+      "role": "Assistant Professor Grade-I, Department of Chemical Engineering, IIT Kharagpur · Principal Investigator",
       "group": "Principal Investigator",
-      "bio": "Dr. Maity combines chemical engineering, nanotechnology and bioengineering to develop organ and organoid chips, lab-on-a-chip devices and biosensors for human-relevant disease and treatment studies.",
+      "bio": "Dr. Maity leads the MMBS Laboratory. His research centres on microfluidic devices, organ-on-a-chip models and biosensors. He earned his PhD in nanotechnology and a master's degree in chemical engineering at IIT Guwahati, followed by postdoctoral research at the Terasaki Institute for Biomedical Innovation and Duke University.",
       "image": "assets/images/DR-Surjendu.png",
       "url": "https://scholar.google.com/citations?user=7THJlUsAAAAJ&hl=en",
       "email": "surjendu@che.iitkgp.ac.in",
@@ -145,24 +149,28 @@
         {
           "label": "LinkedIn",
           "url": "https://www.linkedin.com/in/surjendu-maity-45306259"
+        },
+        {
+          "label": "IIT Kharagpur profile",
+          "url": "https://www.iitkgp.ac.in/department/CH/faculty/ch-surjendu"
         }
       ],
       "timeline": [
         {
           "label": "PhD",
-          "text": "Nanotechnology at IIT Guwahati with Prof. Dipankar Bandyopadhyay; microfluidic transport, sensing and delivery of nanoscale objects."
+          "text": "Nanotechnology, IIT Guwahati, with Prof. Dipankar Bandyopadhyay. His thesis examined the transport, sensing and mixing of nanoscale objects in microfluidic reactors."
         },
         {
           "label": "Postdoc",
-          "text": "Terasaki Institute for Biomedical Innovation, Los Angeles, with Prof. Ali Khademhosseini; cancer-vaccine screening and glioblastoma drug resistance using organ chips."
+          "text": "Terasaki Institute for Biomedical Innovation, Los Angeles, with Prof. Ali Khademhosseini. Research included organ-on-a-chip systems, cancer-vaccine screening and glioblastoma drug resistance."
         },
         {
           "label": "Postdoc",
-          "text": "Duke University School of Medicine with Prof. Shyni Varghese; aging-brain models and vascularised tumour organoids on chips."
+          "text": "Duke University School of Medicine, with Prof. Shyni Varghese. Research included brain ageing and vascularised tumour organoid models."
         },
         {
           "label": "Current",
-          "text": "Assistant Professor of Chemical Engineering at IIT Kharagpur and Principal Investigator of the MMBS Laboratory."
+          "text": "Assistant Professor Grade-I in Chemical Engineering at IIT Kharagpur and Principal Investigator of the MMBS Laboratory."
         }
       ]
     }
@@ -188,37 +196,39 @@
   "opportunities": [
     {
       "title": "B.Tech",
-      "description": "Project and thesis opportunities spanning the ten research areas."
+      "description": "Project and thesis work across the lab's research areas."
     },
     {
       "title": "M.Tech",
-      "description": "Thesis projects combining device fabrication with biological experiments."
+      "description": "Thesis research involving device fabrication and biological experiments."
     },
     {
       "title": "PhD",
-      "description": "Full-time doctoral research; send a CV and a statement of interest."
+      "description": "Enquiries about full-time doctoral research are welcome. Include your CV and a statement of interest."
     },
     {
       "title": "Postdoc",
-      "description": "Research opportunities in biomedical chip platforms."
+      "description": "Enquiries from researchers interested in biomedical chip systems are welcome."
     }
   ],
   "publications": [
     {
       "title": "Lymph node paracortex-inspired on-a-chip recapitulating immunosenescence: a cancer vaccine immunogenicity and antitumoral efficacy screening platform",
       "authors": "Maity, S.; Hassani Najafabadi, A.; Kawakita, S.; Khorsandi, D.; Yilgor, C.; Jewell, C.; Mohaghegh, N.; Dokmeci, M. R.; Khademhosseini, A.; Jucaud, V.",
-      "venue": "Lab on a Chip, 26, 220",
+      "venue": "Lab on a Chip, 26(1), 220–235",
       "year": 2026,
       "paperUrl": "https://doi.org/10.1039/D5LC00533G",
-      "codeUrl": ""
+      "codeUrl": "",
+      "summary": "An experimental model of age-dependent immune responses to cancer vaccines, tested using mouse immune cells and cancer cells."
     },
     {
       "title": "Recent Developments in Glioblastoma-on-a-Chip for Advanced Drug Screening Applications",
       "authors": "Maity, S.; Bhuyan, T.; Jewell, C.; Kawakita, S.; Sharma, S.; Nguyen, H. T.; Hassani Najafabadi, A.; et al.",
-      "venue": "Small, 21 (1), 2405511 — review article",
+      "venue": "Small, 21(1), e2405511 · Review",
       "year": 2025,
       "paperUrl": "https://doi.org/10.1002/smll.202405511",
-      "codeUrl": ""
+      "codeUrl": "",
+      "summary": "A review of glioblastoma-on-a-chip models for drug screening, including the limitations of existing systems and questions for future development."
     },
     {
       "title": "Embolization-on-a-Chip: Novel Vascularized Liver Tumor Model for Evaluation of Cellular and Cytokine Response to Embolic Agents",
@@ -226,10 +236,11 @@
       "venue": "Biofabrication, 17 (4), 045017",
       "year": 2025,
       "paperUrl": "https://doi.org/10.1088/1758-5090/adfbc3",
-      "codeUrl": ""
+      "codeUrl": "",
+      "summary": "A vascularised liver tumour model for comparing how embolic agents affect cancer cells, blood-vessel networks and cytokine responses in the laboratory."
     }
   ],
-  "publicationNote": "The source lists three selected papers from the group and collaborators. The principal investigator’s Google Scholar profile provides the wider publication record.",
+  "publicationNote": "Selected publications by Dr. Surjendu Maity and collaborators. Visit his Google Scholar profile for the broader publication record.",
   "news": [],
-  "newsEmptyMessage": "The source website does not list dated lab announcements. Research highlights and current opportunities are available below."
+  "newsEmptyMessage": "No announcements have been posted yet. Explore our research highlights and opportunities below."
 }

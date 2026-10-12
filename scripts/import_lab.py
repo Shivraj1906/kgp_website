@@ -8,6 +8,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 import json
 import re
+from refine_content import apply_editorial
 from urllib.request import urlopen
 from urllib.parse import urljoin
 
@@ -170,16 +171,19 @@ def import_lab():
     # Preserve current contact fields while checking they are still on the source.
     assert '721302' in section('contact').text() and 'Kharagpur' in section('contact').text()
     assert len(pi.find(cls='pi-timeline')[0].find(tag='li')) == len(timeline)
+    data = apply_editorial(data)
     (ROOT / 'data' / 'content.json').write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     provenance = {
         'sourceUrl': SOURCE, 'retrievedAt': datetime.now(timezone.utc).isoformat(),
         'sections': [{'id': name, 'url': SOURCE + '#' + name} for name in ['top', 'about', 'research-areas', 'research', 'publications', 'members', 'join', 'contact']],
         'counts': {'researchAreas': len(areas), 'flagshipProjects': len(projects), 'publications': len(papers), 'namedPeople': 1, 'openMemberGroups': len(openings), 'opportunities': len(joins), 'datedNews': 0},
         'assets': assets,
+        'editorialFile': 'data/editorial.json',
+        'factCheckFile': 'data/fact-check.json',
         'notes': [
             'Descriptive prose and biography are condensed; source publication metadata, names and links are retained.',
             'The source has no dated news, named students or alumni. Open positions are stored separately from people.',
-            'Publications are the source’s selected list, not an independently verified complete bibliography; abbreviated author lists remain abbreviated.',
+            'Selected publication records and added research details were checked against institutional and publication sources; see data/fact-check.json. This is not a complete bibliography.',
             'Source template-editing instructions and contact form implementation notes are excluded from lab content.',
             'Flagship projects are stored under the organ-on-a-chip research area; their original pillar labels are retained.',
         ],

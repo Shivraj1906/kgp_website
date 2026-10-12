@@ -1,0 +1,61 @@
+{
+  "reviewedOn": "2026-10-12",
+  "scope": "Editorial additions and corrections to the imported MMBS lab content. Publication abstracts and metadata were consulted; no clinical efficacy claims were added.",
+  "checks": [
+    {
+      "fields": ["lab.name", "lab.fullName", "lab.joining", "opportunities", "memberGroups", "projects.Vascularised organ and tumour chips"],
+      "sources": ["https://mmbslab.netlify.app/"],
+      "status": "Reported by the lab",
+      "note": "Lab identity, recruitment enquiries and Duke collaboration are retained from the lab's own website. The specific vascularised organoid projects and currently available positions were not independently confirmed. Copy describes research directions and enquiries without promising a place or a clinical result."
+    },
+    {
+      "fields": ["lab.about", "research.Lab-on-a-Chip", "research.Biosensors", "research.Computational Modelling", "people.role", "lab.email"],
+      "sources": ["https://www.iitkgp.ac.in/department/CH/faculty/ch-surjendu"],
+      "status": "Confirmed by the current institutional profile",
+      "note": "Confirms Assistant Professor Grade-I, department, email, microscale flow and transport, device fabrication, and electrochemical and impedance-based sensing. The institutional page uses MMB Lab; the website uses MMBS Laboratory. Retained the user-supplied lab website's name."
+    },
+    {
+      "fields": ["people.bio", "people.timeline.PhD"],
+      "sources": ["https://terasaki.org/institute/smaity", "https://www.iitg.ac.in/nano/cfn/researchscholar.html", "https://www.iitg.ac.in/acad/convocation/Booklet_23rd_Convo.pdf"],
+      "status": "Confirmed by institutional records",
+      "note": "Confirms PhD in nanotechnology, master's degree in chemical engineering, PhD supervisor and thesis subject: transport, sensing and mixing in microfluidic reactors. No degree or appointment dates were inferred."
+    },
+    {
+      "fields": ["people.timeline.Postdoc"],
+      "sources": ["https://terasaki.org/institute/smaity", "https://varghese.pratt.duke.edu/people", "https://mmbslab.netlify.app/#members"],
+      "status": "Institutional affiliation checked; project history reported by the lab",
+      "note": "Terasaki and Duke pages support the postdoctoral affiliations. Those pages still label him as a postdoc; current appointment wording follows IIT Kharagpur. Mentor and project descriptions also follow the supplied lab biography."
+    },
+    {
+      "fields": ["projects.Lymph node-on-a-chip for cancer vaccines", "publications.10.1039/D5LC00533G"],
+      "sources": ["https://pubs.rsc.org/en/Content/ArticleLanding/2025/LC/D5LC00533G", "https://pubmed.ncbi.nlm.nih.gov/41362262/"],
+      "status": "Confirmed against the published research and citation record",
+      "note": "Specifies mouse cells, preclinical immune-response measurements and the full page range. The paper first appeared online in November 2025; its journal issue is 26(1), 220–235, 2026. Retained the issue year for publication grouping."
+    },
+    {
+      "fields": ["projects.Glioblastoma-on-a-chip"],
+      "sources": ["https://www.sciencedirect.com/science/article/pii/S1742706125003630", "https://pubmed.ncbi.nlm.nih.gov/40383349/"],
+      "status": "Confirmed against the published experimental study",
+      "note": "The model examines pericyte-mediated temozolomide resistance. The project links to the experimental Acta Biomaterialia paper, distinct from the selected Small review. No treatment success in patients is claimed."
+    },
+    {
+      "fields": ["publications.10.1002/smll.202405511"],
+      "sources": ["https://scholars.duke.edu/publication/1680959", "https://pubmed.ncbi.nlm.nih.gov/39535474/"],
+      "status": "Confirmed against institutional and publication records",
+      "note": "Identified as a review; corrected the article identifier to e2405511. January 2025 is the issue date, despite first online publication in November 2024."
+    },
+    {
+      "fields": ["publications.10.1088/1758-5090/adfbc3"],
+      "sources": ["https://pubmed.ncbi.nlm.nih.gov/40812355/", "https://biblio.ugent.be/publication/01KK5D63B7JQ1FA71622MR69EG", "https://api.crossref.org/works/10.1088/1758-5090/adfbc3"],
+      "status": "Publication identity and experimental summary confirmed",
+      "note": "The record describes a laboratory liver tumour model for embolic-agent evaluation. Crossref confirms volume 17, issue 4, identifier 045017 and the 2025 issue year."
+    }
+  ],
+  "editorialDecisions": [
+    "Removed the promotional hero quotation rather than inventing an attributed replacement.",
+    "Used British English in descriptive copy; preserved publication titles and author lists.",
+    "Replaced source-import language on visitor pages with ordinary lab and publication copy.",
+    "Kept the publication list selected and did not convert research aspirations into demonstrated patient benefits.",
+    "The news list remains empty. No events, awards, funding, equipment inventory or recruitment deadlines were invented."
+  ]
+}

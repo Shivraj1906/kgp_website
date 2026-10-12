@@ -8,7 +8,15 @@ A responsive six-page static website for the Microfluidics, Materials, Bio-inter
 
 `data/source.json` records the source sections, retrieval time, counts and image URLs. The logo and PI portrait are downloaded into `assets/images/`. Source template-editing instructions are excluded. The source has no dated news or other named members; `news` is empty and open positions are separate from people. The news page displays research highlights and opportunities. The publications page labels the three papers as selected and links to Google Scholar for the wider record.
 
-To repeat the import, run `python scripts/import_lab.py`. This **replaces** both JSON files and the two images; save manual content edits before refreshing. The importer uses only Python's standard library and checks source section counts and PNG signatures. Descriptive summaries and career details are curated in the script and must be reviewed when the source changes. It does not crawl Google Scholar or independently verify the source claims.
+To repeat the import, run `python scripts/import_lab.py`. This **replaces** the imported JSON files and the two images; save manual content edits before refreshing. The importer uses only Python's standard library and checks source section counts and PNG signatures. It then applies the reviewed copy in `data/editorial.json`, so a refresh preserves the editorial refinements. It does not crawl Google Scholar or automatically recheck facts against external sources.
+
+## Reviewed copy and factual checks
+
+`data/editorial.json` stores the refined wording, added paper summaries, citation corrections and links. Edit this file for wording that should survive a new import, then run `python scripts/refine_content.py` to apply it to `data/content.json` without downloading the source again. Entries match research and project titles, people's names, publication DOI URLs and opportunity titles; renamed projects retain a `sourceTitle` for repeat runs.
+
+`data/fact-check.json` records the review date, evidence URLs, fields checked and limits of verification. Institutional profiles support the PI's appointment, degree history and added research details. Publication records support the experimental summaries and citation details. The lymph-node description explicitly identifies the use of mouse cells; the Small paper is identified as a review. Lab-specific recruitment and the vascularised organoid collaboration remain attributed to the lab website. The source's promotional quotation is omitted from the visitor pages; no replacement quotation is attributed to the PI.
+
+Review these editorial entries and their evidence when the source changes. The importer reapplies the reviewed wording but does not infer whether a newer source makes it obsolete.
 
 ## Local preview
 
@@ -73,8 +81,11 @@ After ownership transfer, check Pages settings and the new repository URL. Once 
 - The six HTML files contain the page shells and navigation.
 - `data/content.json` contains editable lab content.
 - `data/source.json` records import provenance.
+- `data/editorial.json` preserves reviewed wording across source imports.
+- `data/fact-check.json` records evidence and verification limits.
 - `assets/images/` contains the imported lab logo and PI portrait.
 - `scripts/import_lab.py` refreshes the source import.
+- `scripts/refine_content.py` applies the reviewed copy without a network request.
 - `scripts/verify_site.cjs` checks rendering and content integration.
 - `assets/site.js` renders content and handles the mobile menu.
 - `assets/styles.css` controls basic responsive styling.

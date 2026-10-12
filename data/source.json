@@ -57,8 +57,10 @@
   "notes": [
     "Descriptive prose and biography are condensed; source publication metadata, names and links are retained.",
     "The source has no dated news, named students or alumni. Open positions are stored separately from people.",
-    "Publications are the source’s selected list, not an independently verified complete bibliography; abbreviated author lists remain abbreviated.",
     "Source template-editing instructions and contact form implementation notes are excluded from lab content.",
-    "Flagship projects are stored under the organ-on-a-chip research area; their original pillar labels are retained."
-  ]
+    "Flagship projects are stored under the organ-on-a-chip research area; their original pillar labels are retained.",
+    "Selected publication records and added research details were reviewed against institutional and publication sources; see data/fact-check.json. This is not a complete bibliography."
+  ],
+  "editorialFile": "data/editorial.json",
+  "factCheckFile": "data/fact-check.json"
 }
