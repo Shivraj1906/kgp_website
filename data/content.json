@@ -58,14 +58,16 @@
           "description": "A model of the lymph-node paracortex for studying how age affects immune responses to cancer vaccines. The published study used cells from young and older mice to compare antigen presentation, T-cell activation and responses against cancer cells.",
           "pillar": "Bio-interfaces",
           "url": "https://doi.org/10.1039/D5LC00533G",
-          "linkLabel": "Read the study"
+          "linkLabel": "Read the study",
+          "illustration": "assets/images/research-immune.svg"
         },
         {
           "title": "Glioblastoma-on-a-chip",
           "description": "A 3D model that reproduces key mechanical properties of brain tissue to study glioblastoma drug resistance. Published work examines how pericytes, cells associated with blood vessels, influence tumour responses to temozolomide.",
           "pillar": "Microfluidics",
           "url": "https://doi.org/10.1016/j.actbio.2025.05.038",
-          "linkLabel": "Read the study"
+          "linkLabel": "Read the study",
+          "illustration": "assets/images/research-tissue.svg"
         },
         {
           "title": "Vascularised organ and tumour chips",
@@ -73,7 +75,8 @@
           "pillar": "Materials",
           "url": "https://mmbslab.netlify.app/#research",
           "sourceTitle": "Vascularized organ & tumor chips",
-          "linkLabel": "Lab research overview"
+          "linkLabel": "Lab research overview",
+          "illustration": "assets/images/research-field.svg"
         }
       ]
     },
