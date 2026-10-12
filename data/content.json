@@ -1,132 +1,235 @@
 {
   "lab": {
-    "name": "Discovery Research Lab",
-    "tagline": "Exploring ideas. Advancing knowledge.",
-    "institution": "Department of Research \u00b7 Example University",
-    "intro": "We bring together researchers from different disciplines to investigate complex questions and develop practical approaches to scientific discovery.",
-    "email": "",
-    "address": "Research Building, Example University\nCity, Country",
-    "joining": "We welcome enquiries from prospective students and collaborators. Details about opportunities will be added here.",
-    "notice": "Preview website \u2014 all names, research, publications, and announcements are fictional placeholders."
+    "name": "MMBS Laboratory",
+    "fullName": "Microfluidics, Materials, Bio‑interfaces & Sensing Laboratory",
+    "tagline": "Microfluidics · Materials · Bio-interfaces · Sensing",
+    "institution": "Department of Chemical Engineering · IIT Kharagpur",
+    "intro": "We combine chemical engineering, biology and computation to develop microfluidic chips, engineered tissues, biomaterials and biosensors for healthcare research.",
+    "about": [
+      "Based in Chemical Engineering at IIT Kharagpur, the lab connects microfluidics, biomaterials, biological interfaces and sensing with computational modelling, AI and advanced manufacturing.",
+      "Our platforms include lab and organ chips, 3D-bioprinted tissue and disease models, functional biomaterials, biosensors and multiscale simulations. Applications include disease modelling, drug discovery, immunotherapy, tissue engineering, regeneration and precision medicine. Microfabrication and translational biology help turn engineering models into predictive tools for healthcare.",
+      "We welcome research partnerships with universities, hospitals, institutes and industry."
+    ],
+    "email": "surjendu@che.iitkgp.ac.in",
+    "address": "Department of Chemical Engineering\nIndian Institute of Technology Kharagpur\nKharagpur, West Bengal 721302, India",
+    "joining": "B.Tech and M.Tech students, PhD applicants and postdoctoral researchers interested in interdisciplinary biomedical engineering are welcome to enquire. Research spans microfluidics, organ chips, bioprinting, biomaterials, biosensors and computational modelling.",
+    "notice": "",
+    "image": "assets/images/mmbs-logo.png",
+    "imageAlt": "MMBS emblem representing microfluidics, materials, bio-interfaces and sensing around a chip",
+    "quote": "Redefining the future of biomedical engineering—one chip, one cell, one innovation at a time.",
+    "quoteAttribution": "Dr. Surjendu Maity, Principal Investigator",
+    "links": [
+      {
+        "label": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=7THJlUsAAAAJ&hl=en"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/surjendu-maity-45306259"
+      }
+    ],
+    "pillars": [
+      {
+        "title": "Microfluidics",
+        "summary": "Fluid control in lab and organ chips."
+      },
+      {
+        "title": "Materials",
+        "summary": "Functional biomaterials and bioprinted structures."
+      },
+      {
+        "title": "Bio-interfaces",
+        "summary": "Cell and tissue interfaces for modelling disease."
+      },
+      {
+        "title": "Sensing",
+        "summary": "Biosensors and bioelectronics for live measurements."
+      }
+    ]
   },
   "research": [
     {
-      "title": "Understanding complex systems",
-      "summary": "Investigating how individual components interact to shape the behaviour of larger systems.",
+      "title": "Organ-on-a-Chip & Microphysiological Systems",
+      "summary": "Tissue physiology on microengineered chips for disease studies and drug evaluation.",
+      "pillar": "Microfluidics",
       "projects": [
         {
-          "title": "Example project 1",
-          "description": "A short project description explaining the question, approach, and potential impact.",
-          "url": ""
+          "title": "Lymph node-on-a-chip for cancer vaccines",
+          "description": "Models the lymph-node paracortex and declining immune function with age to evaluate cancer-vaccine responses in older patients, who are less represented in preclinical studies.",
+          "pillar": "Bio-interfaces",
+          "url": "https://mmbslab.netlify.app/#research"
+        },
+        {
+          "title": "Glioblastoma-on-a-chip",
+          "description": "Recreates the cellular and mechanical conditions of brain tissue in a 3D glioblastoma model to investigate treatment resistance and candidate therapies.",
+          "pillar": "Microfluidics",
+          "url": "https://mmbslab.netlify.app/#research"
+        },
+        {
+          "title": "Vascularized organ & tumor chips",
+          "description": "Brain and tumour organoids with vascular networks for studies of aging, neuroinflammation and personalised immuno-oncology treatments, in collaboration with Duke University School of Medicine.",
+          "pillar": "Materials",
+          "url": "https://mmbslab.netlify.app/#research"
         }
       ]
     },
     {
-      "title": "Methods and measurement",
-      "summary": "Developing tools and methods to collect reliable evidence and test new ideas.",
-      "projects": [
-        {
-          "title": "Example project 2",
-          "description": "A short project description explaining the question, approach, and potential impact.",
-          "url": ""
-        }
-      ]
+      "title": "Lab-on-a-Chip & Microfluidic Technologies",
+      "summary": "Microscale devices that control fluids, cells and reagents.",
+      "pillar": "Microfluidics",
+      "projects": []
     },
     {
-      "title": "Applications and collaboration",
-      "summary": "Working across disciplines to connect foundational research with practical challenges.",
-      "projects": [
-        {
-          "title": "Example project 3",
-          "description": "A short project description explaining the question, approach, and potential impact.",
-          "url": ""
-        }
-      ]
+      "title": "3D Bioprinting & Biofabrication",
+      "summary": "Bioprinted tissues with engineered geometry and biological function.",
+      "pillar": "Materials",
+      "projects": []
+    },
+    {
+      "title": "Biomaterials & Bio-interfaces",
+      "summary": "Biomaterials designed to interact with cells and tissue.",
+      "pillar": "Materials",
+      "projects": []
+    },
+    {
+      "title": "Biosensors & Bioelectronics",
+      "summary": "Sensitive biosensors and electronic interfaces for monitoring biological processes.",
+      "pillar": "Sensing",
+      "projects": []
+    },
+    {
+      "title": "Computational Modelling & Multiphysics Simulations",
+      "summary": "Multiscale and multiphysics models for device development and biological analysis.",
+      "pillar": "Cross-cutting",
+      "projects": []
+    },
+    {
+      "title": "Cancer Engineering & Precision Medicine",
+      "summary": "Tumour chips for studying cancer mechanisms, screening treatments and tailoring therapy.",
+      "pillar": "Bio-interfaces",
+      "projects": []
+    },
+    {
+      "title": "Drug Discovery & Immunotherapy",
+      "summary": "Experimental platforms for testing drugs, delivery methods and immune responses.",
+      "pillar": "Bio-interfaces",
+      "projects": []
+    },
+    {
+      "title": "Tissue Engineering & Regenerative Medicine",
+      "summary": "Functional tissue replacements and approaches to tissue regeneration.",
+      "pillar": "Materials",
+      "projects": []
+    },
+    {
+      "title": "AI/ML-Enabled Biomedical Engineering",
+      "summary": "Machine learning for biomedical device design, image analysis and diagnostics.",
+      "pillar": "Sensing",
+      "projects": []
     }
   ],
   "people": [
     {
-      "name": "Dr. Alex Morgan",
-      "role": "Principal Investigator",
-      "group": "Faculty",
-      "bio": "Leads the lab\u2019s research programme and mentors students across its research themes.",
-      "image": "",
-      "url": ""
+      "name": "Dr. Surjendu Maity",
+      "role": "Assistant Professor & Principal Investigator, Department of Chemical Engineering, IIT Kharagpur",
+      "group": "Principal Investigator",
+      "bio": "Dr. Maity combines chemical engineering, nanotechnology and bioengineering to develop organ and organoid chips, lab-on-a-chip devices and biosensors for human-relevant disease and treatment studies.",
+      "image": "assets/images/DR-Surjendu.png",
+      "url": "https://scholar.google.com/citations?user=7THJlUsAAAAJ&hl=en",
+      "email": "surjendu@che.iitkgp.ac.in",
+      "links": [
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.com/citations?user=7THJlUsAAAAJ&hl=en"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/surjendu-maity-45306259"
+        }
+      ],
+      "timeline": [
+        {
+          "label": "PhD",
+          "text": "Nanotechnology at IIT Guwahati with Prof. Dipankar Bandyopadhyay; microfluidic transport, sensing and delivery of nanoscale objects."
+        },
+        {
+          "label": "Postdoc",
+          "text": "Terasaki Institute for Biomedical Innovation, Los Angeles, with Prof. Ali Khademhosseini; cancer-vaccine screening and glioblastoma drug resistance using organ chips."
+        },
+        {
+          "label": "Postdoc",
+          "text": "Duke University School of Medicine with Prof. Shyni Varghese; aging-brain models and vascularised tumour organoids on chips."
+        },
+        {
+          "label": "Current",
+          "text": "Assistant Professor of Chemical Engineering at IIT Kharagpur and Principal Investigator of the MMBS Laboratory."
+        }
+      ]
+    }
+  ],
+  "memberGroups": [
+    {
+      "title": "Postdoctoral Researchers",
+      "status": "Positions open"
     },
     {
-      "name": "Taylor Rao",
-      "role": "Doctoral Researcher",
-      "group": "Current members",
-      "bio": "Studies complex systems and interdisciplinary research methods.",
-      "image": "",
-      "url": ""
+      "title": "PhD Scholars",
+      "status": "Positions open"
     },
     {
-      "name": "Jordan Lee",
-      "role": "Research Associate",
-      "group": "Current members",
-      "bio": "Develops tools for reproducible experiments and analysis.",
-      "image": "",
-      "url": ""
+      "title": "Postgraduate Students",
+      "status": "Positions open"
     },
     {
-      "name": "Sam Patel",
-      "role": "Master\u2019s Student",
-      "group": "Current members",
-      "bio": "Explores applications of the lab\u2019s methods through collaborative projects.",
-      "image": "",
-      "url": ""
+      "title": "Undergraduate Students",
+      "status": "Positions open"
+    }
+  ],
+  "opportunities": [
+    {
+      "title": "B.Tech",
+      "description": "Project and thesis opportunities spanning the ten research areas."
     },
     {
-      "name": "Casey Chen",
-      "role": "Former Doctoral Researcher",
-      "group": "Alumni",
-      "bio": "Completed doctoral research on methods and measurement.",
-      "image": "",
-      "url": ""
+      "title": "M.Tech",
+      "description": "Thesis projects combining device fabrication with biological experiments."
+    },
+    {
+      "title": "PhD",
+      "description": "Full-time doctoral research; send a CV and a statement of interest."
+    },
+    {
+      "title": "Postdoc",
+      "description": "Research opportunities in biomedical chip platforms."
     }
   ],
   "publications": [
     {
-      "title": "A framework for studying complex research questions",
-      "authors": "A. Morgan, T. Rao, and J. Lee",
-      "venue": "Example Journal of Research",
+      "title": "Lymph node paracortex-inspired on-a-chip recapitulating immunosenescence: a cancer vaccine immunogenicity and antitumoral efficacy screening platform",
+      "authors": "Maity, S.; Hassani Najafabadi, A.; Kawakita, S.; Khorsandi, D.; Yilgor, C.; Jewell, C.; Mohaghegh, N.; Dokmeci, M. R.; Khademhosseini, A.; Jucaud, V.",
+      "venue": "Lab on a Chip, 26, 220",
       "year": 2026,
-      "paperUrl": "",
+      "paperUrl": "https://doi.org/10.1039/D5LC00533G",
       "codeUrl": ""
     },
     {
-      "title": "Reproducible methods for interdisciplinary discovery",
-      "authors": "J. Lee and A. Morgan",
-      "venue": "Example Research Conference",
-      "year": 2026,
-      "paperUrl": "",
-      "codeUrl": ""
-    },
-    {
-      "title": "Connecting foundational methods with practical applications",
-      "authors": "C. Chen and A. Morgan",
-      "venue": "Example Journal of Science",
+      "title": "Recent Developments in Glioblastoma-on-a-Chip for Advanced Drug Screening Applications",
+      "authors": "Maity, S.; Bhuyan, T.; Jewell, C.; Kawakita, S.; Sharma, S.; Nguyen, H. T.; Hassani Najafabadi, A.; et al.",
+      "venue": "Small, 21 (1), 2405511 — review article",
       "year": 2025,
-      "paperUrl": "",
+      "paperUrl": "https://doi.org/10.1002/smll.202405511",
+      "codeUrl": ""
+    },
+    {
+      "title": "Embolization-on-a-Chip: Novel Vascularized Liver Tumor Model for Evaluation of Cellular and Cytokine Response to Embolic Agents",
+      "authors": "Nguyen, H. T.; Tirpakova, Z.; Peirsman, A.; Maity, S.; Falcone, N.; Kawakita, S.; et al.",
+      "venue": "Biofabrication, 17 (4), 045017",
+      "year": 2025,
+      "paperUrl": "https://doi.org/10.1088/1758-5090/adfbc3",
       "codeUrl": ""
     }
   ],
-  "news": [
-    {
-      "date": "2026-09-15",
-      "title": "New research project begins",
-      "text": "The lab is starting a collaborative project investigating a new research question."
-    },
-    {
-      "date": "2026-08-10",
-      "title": "Welcome to our new members",
-      "text": "We welcome new students joining the lab this semester."
-    },
-    {
-      "date": "2026-06-20",
-      "title": "Paper accepted at an example conference",
-      "text": "Congratulations to the team on the acceptance of their latest work."
-    }
-  ]
+  "publicationNote": "The source lists three selected papers from the group and collaborators. The principal investigator’s Google Scholar profile provides the wider publication record.",
+  "news": [],
+  "newsEmptyMessage": "The source website does not list dated lab announcements. Research highlights and current opportunities are available below."
 }

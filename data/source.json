@@ -1,0 +1,64 @@
+{
+  "sourceUrl": "https://mmbslab.netlify.app/",
+  "retrievedAt": "2026-10-12T09:57:39.129559+00:00",
+  "sections": [
+    {
+      "id": "top",
+      "url": "https://mmbslab.netlify.app/#top"
+    },
+    {
+      "id": "about",
+      "url": "https://mmbslab.netlify.app/#about"
+    },
+    {
+      "id": "research-areas",
+      "url": "https://mmbslab.netlify.app/#research-areas"
+    },
+    {
+      "id": "research",
+      "url": "https://mmbslab.netlify.app/#research"
+    },
+    {
+      "id": "publications",
+      "url": "https://mmbslab.netlify.app/#publications"
+    },
+    {
+      "id": "members",
+      "url": "https://mmbslab.netlify.app/#members"
+    },
+    {
+      "id": "join",
+      "url": "https://mmbslab.netlify.app/#join"
+    },
+    {
+      "id": "contact",
+      "url": "https://mmbslab.netlify.app/#contact"
+    }
+  ],
+  "counts": {
+    "researchAreas": 10,
+    "flagshipProjects": 3,
+    "publications": 3,
+    "namedPeople": 1,
+    "openMemberGroups": 4,
+    "opportunities": 4,
+    "datedNews": 0
+  },
+  "assets": [
+    {
+      "sourceUrl": "https://mmbslab.netlify.app/images/mmbs-logo.png",
+      "localPath": "assets/images/mmbs-logo.png"
+    },
+    {
+      "sourceUrl": "https://mmbslab.netlify.app/images/DR-Surjendu.png",
+      "localPath": "assets/images/DR-Surjendu.png"
+    }
+  ],
+  "notes": [
+    "Descriptive prose and biography are condensed; source publication metadata, names and links are retained.",
+    "The source has no dated news, named students or alumni. Open positions are stored separately from people.",
+    "Publications are the source’s selected list, not an independently verified complete bibliography; abbreviated author lists remain abbreviated.",
+    "Source template-editing instructions and contact form implementation notes are excluded from lab content.",
+    "Flagship projects are stored under the organ-on-a-chip research area; their original pillar labels are retained."
+  ]
+}
