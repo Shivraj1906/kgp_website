@@ -91,3 +91,11 @@ After ownership transfer, check Pages settings and the new repository URL. Once 
 - `assets/styles.css` controls basic responsive styling.
 
 The site requires JavaScript to render its JSON content. It has no backend, submission form, or editing dashboard; email and CV links open the visitor's email client. Adding new pages requires code changes. This import does not publish or deploy the site.
+
+## Visual design and motion
+
+The shared stylesheet builds on the lab's ivory, copper and forest-green research-journal identity. The homepage includes the four content-managed research pillars, a framed illustrative hero and a contrasting selected-publications section. Inner pages share ruled sections, clearer captions and refined calls to action. No fonts, libraries or image downloads are required.
+
+Scroll entrances use IntersectionObserver and the Web Animations API after content renders. Page mastheads and selected below-fold sections move 28px over 750ms once; content is visible by default if either API is unavailable. Reduced-motion preferences disable these entrances and CSS movement, including smooth anchor scrolling. Focus, fragment navigation and printing cancel active entrances. Navigation underlines, button arrows and the mobile menu icon have short interaction transitions.
+
+Run `node --check assets/site.js` and `node scripts/verify_site.cjs` for content, links, navigation state and motion-fallback checks. These checks do not replace visual review: inspect all six pages at desktop and mobile widths, keyboard focus, reduced motion and print layout in a connected browser before release.
