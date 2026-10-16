@@ -55,7 +55,11 @@ for (const page of ['index', 'research', 'people', 'publications', 'news', 'cont
   assert.ok(document.title.includes(data.lab.name));
   const shell = fs.readFileSync(path.join(root, page + '.html'), 'utf8');
   assert.ok(!/prototype|fictional|Research Lab</.test(shell), page + ': shell identity');
-  for (const match of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
+  assert.ok(/class="header-identity"><a class="brand"/.test(shell), page + ': wordmark has its own layout container');
+  assert.ok(shell.includes('class="lab-emblem"'), page + ': emblem present');
+  assert.ok(shell.includes('class="header-institution"'), page + ': institution present');
+  assert.ok(!shell.includes('Microfluidics ?'), page + ': header separators are intact');
+  for (const match of (shell + html).matchAll(/(?:href|src)="([^"]+)"/g)) {
     const url = new URL(match[1].replaceAll('&amp;', '&'), document.baseURI);
     if (url.hostname === 'localhost') assert.ok(fs.existsSync(path.join(root, url.pathname)), `${page}: missing ${url.pathname}`);
   }
@@ -88,3 +92,16 @@ assert.ok(rendered.contact.includes('mailto:surjendu@che.iitkgp.ac.in'));
 assert.ok(rendered.contact.includes('id="opportunities"'));
 assert.ok(rendered.research.includes('id="projects"'));
 console.log('PASS import counts, PNG assets, research content, biography, DOI links, empty news, contact details and mobile menu interaction');
+
+// Page headers may differ only in their active navigation marker.
+const pages = ['index', 'research', 'people', 'publications', 'news', 'contact'];
+const headers = pages.map(page => {
+  const shell = fs.readFileSync(path.join(root, page + '.html'), 'utf8');
+  const header = shell.match(/<header[\s\S]*?<\/header>/)[0];
+  assert.equal((header.match(/aria-current="page"/g) || []).length, 1, page + ': one active tab');
+  const activeHref = header.match(/href="([^"]+)" aria-current="page"/)[1];
+  assert.equal(new URL(activeHref, 'http://localhost:8001/').pathname, '/' + page + '.html', page + ': correct active tab');
+  return header.replace(/ aria-current="page"/g, '');
+});
+for (const header of headers) assert.equal(header, headers[0], 'consistent header across all pages');
+console.log('PASS identical headers and correct active navigation on all six pages');

@@ -59,7 +59,13 @@
           "pillar": "Bio-interfaces",
           "url": "https://doi.org/10.1039/D5LC00533G",
           "linkLabel": "Read the study",
-          "illustration": "assets/images/research-immune.svg"
+          "illustration": "assets/images/t-lymphocyte.jpg",
+          "imageAlt": "Colorized scanning electron micrograph of a healthy human T lymphocyte",
+          "imageCaption": "T lymphocyte (colorized SEM)",
+          "imageCredit": "NIAID",
+          "imageSource": "https://www.flickr.com/photos/54591706@N02/54121207473/",
+          "imageLicense": "CC BY 2.0",
+          "imageLicenseUrl": "https://creativecommons.org/licenses/by/2.0/"
         },
         {
           "title": "Glioblastoma-on-a-chip",
@@ -67,7 +73,13 @@
           "pillar": "Microfluidics",
           "url": "https://doi.org/10.1016/j.actbio.2025.05.038",
           "linkLabel": "Read the study",
-          "illustration": "assets/images/research-tissue.svg"
+          "illustration": "assets/images/glioblastoma-histology.jpg",
+          "imageAlt": "High-magnification HPS-stained glioblastoma tissue micrograph",
+          "imageCaption": "Glioblastoma histology (HPS stain)",
+          "imageCredit": "Nephron / Wikimedia Commons",
+          "imageSource": "https://commons.wikimedia.org/wiki/File:Glioblastoma_-_high_mag.jpg",
+          "imageLicense": "CC BY-SA 3.0",
+          "imageLicenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
         },
         {
           "title": "Vascularised organ and tumour chips",
@@ -76,7 +88,13 @@
           "url": "https://mmbslab.netlify.app/#research",
           "sourceTitle": "Vascularized organ & tumor chips",
           "linkLabel": "Lab research overview",
-          "illustration": "assets/images/research-field.svg"
+          "illustration": "assets/images/fluid-circuit.jpg",
+          "imageAlt": "Colored liquids flowing through a fluid-walled microfluidic circuit in a Petri dish",
+          "imageCaption": "Fluid-walled microfluidic circuit",
+          "imageCredit": "Walsh et al. (2017)",
+          "imageSource": "https://doi.org/10.1038/s41467-017-00846-4",
+          "imageLicense": "CC BY 4.0",
+          "imageLicenseUrl": "https://creativecommons.org/licenses/by/4.0/"
         }
       ]
     },

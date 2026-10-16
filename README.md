@@ -23,10 +23,10 @@ Review these editorial entries and their evidence when the source changes. The i
 Run from this folder:
 
 ```sh
-python3 -m http.server 8000
+python scripts/serve.py
 ```
 
-Open http://localhost:8000. Use this server instead of opening HTML files directly, since the website fetches its JSON content.
+Open http://127.0.0.1:8001/. The preview server disables caching so page headers and assets stay in sync. Use this server instead of opening HTML files directly, since the website fetches its JSON content.
 
 ## Editing content
 
@@ -94,8 +94,18 @@ The site requires JavaScript to render its JSON content. It has no backend, subm
 
 ## Visual design and motion
 
-The shared stylesheet builds on the lab's ivory, copper and forest-green research-journal identity. The homepage includes the four content-managed research pillars, a framed illustrative hero and a contrasting selected-publications section. Inner pages share ruled sections, clearer captions and refined calls to action. No fonts, libraries or image downloads are required.
+The presentation follows the institutional hierarchy of https://www.stantonlab.info/: a prominent lab identity, separate navigation, scientific imagery and a direct mission section. Bold uppercase display type, high-contrast image compositions and outlined actions add an aerospace-inspired treatment. All six pages use the same white, black and navy system. The MMBS emblem, licensed microscopy media, PI portrait and factual content remain local; reference-site logos, claims and imagery are not reused. The homepage hero uses real microscopy footage with a static poster fallback. No new fonts, libraries or external runtime requests are required.
 
 Scroll entrances use IntersectionObserver and the Web Animations API after content renders. Page mastheads and selected below-fold sections move 28px over 750ms once; content is visible by default if either API is unavailable. Reduced-motion preferences disable these entrances and CSS movement, including smooth anchor scrolling. Focus, fragment navigation and printing cancel active entrances. Navigation underlines, button arrows and the mobile menu icon have short interaction transitions.
 
 Run `node --check assets/site.js` and `node scripts/verify_site.cjs` for content, links, navigation state and motion-fallback checks. These checks do not replace visual review: inspect all six pages at desktop and mobile widths, keyboard focus, reduced motion and print layout in a connected browser before release.
+
+## Scientific media
+
+The generated research illustrations have been replaced by third-party experimental imagery: Walsh et al. (2017), *Microfluidics with fluid walls*, CC BY 4.0, and a NIAID colorized T-cell scanning electron micrograph, CC BY 2.0. Source links, creators, licenses, precise movie numbers and transformations are recorded in `data/media.json`. Visible captions provide attribution and distinguish this reference material from MMBS experimental results. The hero uses HEK-293 cell footage. The glioblastoma research card uses an HPS-stained histology micrograph by Nephron, distributed under CC BY-SA 3.0 with attribution.
+
+The hero video is a locally hosted H.264 MP4 (~3 MB). `assets/hero-video.js` progressively enhances its poster with muted playback, play/pause, reduced-motion and data-saving defaults, and offscreen/tab suspension. Autoplay rejection leaves a manual play button; a media error restores the poster. No tracking embeds or external media requests are required. Photo metadata is stored in both `data/content.json` and `data/editorial.json`, so content refreshes preserve the selected media. The original imported MMBS logo and PI portrait are unchanged.
+
+Run `node scripts/verify_media.cjs` for attribution, media-file and playback-state checks. Frames were inspected and the video decoded locally; browser playback and layout still need a connected-browser review.
+
+Content JSON is fetched without browser caching to prevent older project-image paths from appearing alongside new rendering code. Research image paths and credits are also persisted in the editorial overrides.

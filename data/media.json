@@ -1,0 +1,59 @@
+{
+  "retrieved": "2026-10-16",
+  "note": "Third-party reference imagery, not MMBS experimental results. The hero shows HEK-293 cell culture; the glioblastoma card uses a separate histology micrograph.",
+  "assets": [
+    {
+      "files": [
+        "assets/video/cell-culture.mp4",
+        "assets/images/cell-culture.jpg"
+      ],
+      "title": "HEK-293 cells growing in fluid-walled culture",
+      "authors": "Edmond J. Walsh, Alexander Feuerborn, James H. R. Wheeler, Ann Na Tan, William M. Durham, Kevin R. Foster and Peter R. Cook",
+      "source": "https://doi.org/10.1038/s41467-017-00846-4",
+      "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Microfluidics-with-fluid-walls-41467_2017_846_MOESM11_ESM.ogv",
+      "sourceDescription": "Supplementary Movie 8 (MediaObjects file MOESM11), Microfluidics with fluid walls, Nature Communications 8, 816 (2017).",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Full recording transcoded to H.264 MP4 at 960px wide without audio. Poster/still extracted at 2 seconds and resized to 960px. Website may crop the display and add dark overlays."
+    },
+    {
+      "files": [
+        "assets/images/fluid-circuit.jpg"
+      ],
+      "title": "Mixing colored liquids in a fluid-walled microfluidic circuit",
+      "authors": "Edmond J. Walsh, Alexander Feuerborn, James H. R. Wheeler, Ann Na Tan, William M. Durham, Kevin R. Foster and Peter R. Cook",
+      "source": "https://doi.org/10.1038/s41467-017-00846-4",
+      "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Microfluidics-with-fluid-walls-41467_2017_846_MOESM8_ESM.ogv",
+      "sourceDescription": "Supplementary Movie 5 (MediaObjects file MOESM8), Microfluidics with fluid walls, Nature Communications 8, 816 (2017).",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Still extracted at 2 seconds, resized to 960px wide and saved as JPEG. Display cropping and hero dark overlay."
+    },
+    {
+      "files": [
+        "assets/images/t-lymphocyte.jpg"
+      ],
+      "title": "T Lymphocyte known as a T cell - 2231",
+      "authors": "NIAID",
+      "source": "https://www.flickr.com/photos/54591706@N02/54121207473/",
+      "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/7/7a/T_Lymphocyte_known_as_a_T_cell_-_2231.jpg",
+      "licenseEvidence": "https://commons.wikimedia.org/wiki/File:T_Lymphocyte_known_as_a_T_cell_-_2231.jpg",
+      "sourceDescription": "Colorized scanning electron micrograph of a healthy T lymphocyte (teal). Colorization is part of the source, not generative AI.",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "changes": "Resized to 960px wide and JPEG-compressed. Display cropping and hero dark overlay."
+    },
+    {
+      "files": [
+        "assets/images/glioblastoma-histology.jpg"
+      ],
+      "title": "Glioblastoma - high mag",
+      "authors": "Nephron",
+      "source": "https://commons.wikimedia.org/wiki/File:Glioblastoma_-_high_mag.jpg",
+      "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/7/74/Glioblastoma_-_high_mag.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Resized to 960px and JPEG-compressed; display-cropped. This adapted image is distributed under CC BY-SA 3.0."
+    }
+  ]
+}
