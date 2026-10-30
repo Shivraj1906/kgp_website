@@ -194,6 +194,112 @@
           "text": "Assistant Professor Grade-I in Chemical Engineering at IIT Kharagpur and Principal Investigator of the MMBS Laboratory."
         }
       ]
+    },
+    {
+      "name": "Shankha Banerjee",
+      "role": "Postdoctoral fellow",
+      "group": "Postdoctoral researchers",
+      "bio": "Lipid nanoparticles in targeted drug delivery",
+      "image": "assets/images/people/shankha-banerjee.jpg",
+      "email": "shankhabanerjee2012@gmail.com",
+      "links": [
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.com/citations?user=gXu7pnYAAAAJ&hl=en"
+        }
+      ],
+      "source": "member-form"
+    },
+    {
+      "name": "Sovan Chakraborty",
+      "role": "PhD researcher",
+      "group": "PhD researchers",
+      "bio": "Organ-on-a-chip",
+      "image": "assets/images/people/sovan-chakraborty.jpg",
+      "email": "sovan.chakraborty.bio@gmail.com",
+      "links": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/sovan-chakraborty-3a9925213"
+        },
+        {
+          "label": "CV",
+          "url": "https://drive.google.com/file/d/1ECUtH0BUdCYxPmNI42IaH-CTdc4TrJIc/view?usp=sharing"
+        }
+      ],
+      "source": "member-form"
+    },
+    {
+      "name": "Shaik Karishma",
+      "role": "PhD researcher",
+      "group": "PhD researchers",
+      "bio": "Organ-on-a-chip",
+      "image": "assets/images/people/shaik-karishma.jpg",
+      "email": "karishmaed24@gmail.com",
+      "links": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/karishma-s-165517165/"
+        },
+        {
+          "label": "CV",
+          "url": "https://drive.google.com/file/d/1sBbMX3ButHYAEzcX2UZ1ggX-EwIaBcFR/view?usp=sharing"
+        }
+      ],
+      "source": "member-form"
+    },
+    {
+      "name": "Adit Kumar Paul",
+      "role": "PhD researcher",
+      "group": "PhD researchers",
+      "bio": "Lung cancer",
+      "image": "assets/images/people/adit-kumar-paul.jpg",
+      "email": "amiaditbolchi1@gmail.com",
+      "links": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/adit-kumar-paul-31b298201"
+        },
+        {
+          "label": "CV",
+          "url": "https://drive.google.com/file/d/1KCnH__ZAV2N-Mt8iyQb0maA4s2SIKWGa/view?usp=drivesdk"
+        }
+      ],
+      "source": "member-form"
+    },
+    {
+      "name": "Akshatha",
+      "role": "PhD researcher",
+      "group": "PhD researchers",
+      "bio": "3D bioprinting and organoid development",
+      "image": "assets/images/people/akshatha.jpg",
+      "email": "akshathabhandari165@gmail.com",
+      "links": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/akshatha-bhandari01"
+        },
+        {
+          "label": "CV",
+          "url": "https://acrobat.adobe.com/id/urn:aaid:sc:AP:334309bb-5906-4973-9b66-cf088bda6ed7"
+        }
+      ],
+      "source": "member-form"
+    },
+    {
+      "name": "Sushobhon Ghosh",
+      "role": "Masters student",
+      "group": "Masters students",
+      "bio": "Organ-on-a-chip models",
+      "image": "assets/images/people/sushobhon-ghosh.jpg",
+      "email": "ghosh.sushobhon1994@gmail.com",
+      "links": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/dr-sushobhon-ghosh-5b3920161"
+        }
+      ],
+      "source": "member-form"
     }
   ],
   "memberGroups": [

@@ -10,7 +10,15 @@ const script = fs.readFileSync(path.join(root, 'assets/site.js'), 'utf8');
 assert.equal(data.research.length, source.counts.researchAreas);
 assert.equal(data.research.flatMap(item => item.projects).length, source.counts.flagshipProjects);
 assert.equal(data.publications.length, source.counts.publications);
-assert.equal(data.people.length, source.counts.namedPeople);
+const members = JSON.parse(fs.readFileSync(path.join(root, 'data/members.json'), 'utf8'));
+assert.equal(data.people.length, source.counts.namedPeople + members.length);
+assert.deepEqual(data.people.filter(person => person.source === 'member-form'), members);
+assert.equal(new Set(data.people.map(person => person.name.toLowerCase())).size, data.people.length);
+for (const member of members) {
+  assert.ok(member.name && member.role && member.group && member.bio && member.email);
+  assert.ok(fs.readFileSync(path.join(root, member.image)).subarray(0, 2).equals(Buffer.from([255, 216])));
+  for (const link of member.links) assert.ok(/^https:\/\//.test(link.url), `${member.name}: invalid profile link`);
+}
 assert.equal(data.memberGroups.length, source.counts.openMemberGroups);
 assert.equal(data.opportunities.length, source.counts.opportunities);
 assert.equal(data.news.length, source.counts.datedNews);
@@ -94,6 +102,12 @@ assert.ok(rendered.research.includes('id="projects"'));
 console.log('PASS import counts, PNG assets, research content, biography, DOI links, empty news, contact details and mobile menu interaction');
 
 // Page headers may differ only in their active navigation marker.
+for (const member of members) {
+  assert.ok(rendered.people.includes(`<h3>${escapeHtml(member.name)}</h3>`), `${member.name}: missing rendered profile`);
+  assert.ok(rendered.people.includes(member.image), `${member.name}: missing rendered portrait`);
+  assert.ok(rendered.people.includes(`mailto:${member.email}`), `${member.name}: missing email link`);
+  for (const profile of member.links) assert.ok(rendered.people.includes(escapeHtml(profile.url)), `${member.name}: missing profile link`);
+}
 const pages = ['index', 'research', 'people', 'publications', 'news', 'contact'];
 const headers = pages.map(page => {
   const shell = fs.readFileSync(path.join(root, page + '.html'), 'utf8');

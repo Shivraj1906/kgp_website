@@ -29,6 +29,12 @@ def apply_editorial(data):
                     item['links'].append(link)
     for key in ['publicationNote', 'newsEmptyMessage']:
         data[key] = editorial[key]
+    # Keep submitted member profiles across upstream refreshes and repeat runs.
+    members = json.loads((ROOT / 'data' / 'members.json').read_text(encoding='utf-8'))
+    member_names = {person['name'].casefold() for person in members}
+    data['people'] = [person for person in data['people']
+                      if person.get('source') != 'member-form'
+                      and person['name'].casefold() not in member_names] + members
     return data
 
 

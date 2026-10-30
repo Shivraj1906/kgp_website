@@ -132,6 +132,15 @@ body[data-page='index'] main { width: 100%; padding: 0; }
 .area-grid h3 { font-size: 20px; margin-bottom: 12px; }
 .area-grid p { color: var(--muted); font-size: 14px; }
 .people-group { margin-top: 0; }
+.people-group-title { font-size: 22px; margin-bottom: 30px; }
+.team-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px 32px; }
+.team-grid .member-card { display: flex; flex-direction: column; gap: 24px; padding-bottom: 24px; border-bottom: 1px solid var(--line); min-width: 0; }
+.team-grid .portrait { width: 100%; max-width: none; aspect-ratio: 1; object-fit: cover; object-position: center; }
+.team-grid h3 { font-size: 25px; line-height: 1.2; margin-bottom: 12px; }
+.team-grid .meta { margin-bottom: 12px; }
+.team-grid .links { gap: 4px 18px; }
+@media (max-width: 800px) { .team-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .team-grid { grid-template-columns: 1fr; } }
 .person-card { display: grid; grid-template-columns: 300px minmax(0,1fr); gap: 60px; padding: 0 0 40px; }
 .person-card:not(:has(.portrait)) { grid-template-columns: 1fr; }
 .portrait { width: 100%; aspect-ratio: 854 / 1280; object-fit: contain; align-self: start; }

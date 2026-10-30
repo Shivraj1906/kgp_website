@@ -30,6 +30,8 @@ Open http://127.0.0.1:8001/. The preview server disables caching so page headers
 
 ## Editing content
 
+The six submitted member profiles are maintained in `data/members.json`, with optimized portraits in `assets/images/people/`. Edit that file and run `python scripts/refine_content.py` to update the website. Upstream imports preserve these profiles without duplicating them. Names follow the form, including `Akshatha`; capitalization and research-interest wording are normalized. Missing/`??` links are omitted, and the Scholar URL entered in the CV field is labeled Google Scholar. The original CSV and full-resolution portrait folder remain untouched local inputs; the website uses the curated JSON and optimized JPEGs.
+
 All lab-specific content lives in [data/content.json](data/content.json). Routine edits do not require HTML or JavaScript changes.
 
 1. Open that file on GitHub and select the pencil icon.
